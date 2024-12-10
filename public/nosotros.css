@@ -1,0 +1,17 @@
+#slider{
+    background-image: url(nikola-duza-TSh8D8KutWU-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+#slider1{
+    background-image: url(samuel-ramos-dwfkhOTJMDc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    margin-left: 40px;
+}

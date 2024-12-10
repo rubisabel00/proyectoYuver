@@ -1,0 +1,49 @@
+/* components/Categorias.css */
+
+.container-fluid {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #343a40;
+}
+
+.form-select {
+  font-size: 1rem;
+  border-radius: 20px;
+  padding: 0.5rem;
+  max-width: 300px;
+}
+
+.cards-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 18rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #495057;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

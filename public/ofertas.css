@@ -1,0 +1,53 @@
+.card {
+    width: 220px;            /* Reducir el ancho */
+    height: 320px;           /* Establecer una altura fija */
+    margin: 10px;            /* Espaciado uniforme */
+    border-radius: 12px;     /* Bordes redondeados */
+    overflow: hidden;        /* Evitar que el contenido sobresalga */
+    transition: transform 0.2s, box-shadow 0.2s; /* Efecto de transición suave */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Efecto de elevación al pasar el mouse */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
+}
+
+.card img {
+    width: 100%;
+    height: 100%;          /* Altura fija para la imagen */
+    object-fit: contain;      /* Ajustar la imagen sin deformarla */
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px
+
+}
+
+
+.card-title {
+    font-size: 1.2rem;      /* Tamaño del título */
+    font-weight: bold;      /* Negrita */
+    margin-bottom: 10px;    /* Espacio inferior */
+    color: #333;            /* Color oscuro para el texto */
+}
+
+.card-text {
+    font-size: 0.9rem;      /* Tamaño del texto */
+    color: #666;            /* Color gris */
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;       /* Permitir que las tarjetas se envuelvan en varias filas */
+    justify-content: center; /* Centrar las tarjetas */
+    gap: 20px;             /* Espacio entre las tarjetas */
+}
+
+#slider1{
+    background-image: url(samuel-ramos-dwfkhOTJMDc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    margin-left: 40px;
+    margin-bottom: 15vh;
+}
